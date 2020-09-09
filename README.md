@@ -1,4 +1,12 @@
 This repository is about doing 100 days of code challenges from repository: florinpop17/app-ideas
+
+
+
+
+
+
+
+
 ## Projects
 
 Projects are divided into three tiers based on the knowledge and experience
