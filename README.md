@@ -1,12 +1,20 @@
 This repository is about doing 100 days of code challenges from repository: florinpop17/app-ideas
 
+If you start with original repo, you can create a folder structure like that
+<img src="tree.png">
+
+Then copy my prepare.js and
+
+```sh
+$ node prepare.js
+```
+
+It will auto generate all html/css/file for each apps, such as
+
+<img src="bigtree.png">
 
 
-
-
-
-
-
+----------------------------------------------------------------------------------
 ## Projects
 
 Projects are divided into three tiers based on the knowledge and experience

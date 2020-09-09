@@ -1,10 +1,11 @@
 const path = require('path');
 const fs = require('fs');
 const level = [`1-Beginner`,`2-Intermediate`,`3-Advanced`]
-// const mdDirs = level.map(val=>path.join(__dirname,'Projects',val))
+const mdDirs = level.map(val=>path.join(__dirname,'Projects',val))
 
+
+// auto create html/css/js file
 // const typesOfFile = [ "html","css","js"]
-
 // const all_p = mdDirs.map(val=>{
 //     return new Promise((resolve,reject)=>{
 //         fs.readdir(val,(err,files)=>{
@@ -17,6 +18,35 @@ const level = [`1-Beginner`,`2-Intermediate`,`3-Advanced`]
 //     })
 //     // read all file names from `1-Beginner`,`2-Intermediate`,`3-Advanced` in Projects perspectively
 // })
+// function createFile(filename, dir) {
+//     return new Promise((resolve, reject) => {
+//         if (fs.existsSync(path.join(dir, path.dirname(filename)))) {
+//             resolve(path.join(dir, path.dirname(filename)))
+//         } else {
+//             fs.mkdir(path.join(dir, path.dirname(filename)), (err) => {
+//                 if (!err) {
+//                     resolve(path.join(dir, path.dirname(filename)))
+//                 }
+//                 reject(err)
+//             })
+//         }
+
+//     })
+//         .then((_path => {
+//             return new Promise((resolve,reject)=>{
+//                 let filepath = path.join(_path,path.basename(filename))
+//                 fs.writeFile(filepath,'',(err)=>{
+//                     if(!err){
+
+//                         resolve(`${filepath} is created!`)
+//                     }
+//                     reject(err)
+//                 })
+//             })
+//         }))
+
+// }
+
 
 // Promise.all(all_p)
 // .then(val=>{
@@ -48,7 +78,9 @@ const level = [`1-Beginner`,`2-Intermediate`,`3-Advanced`]
 // })
 // .then(val=>{
 //     return Promise.all(val.map(file=>{
+//         // console.log(path.join(__dirname,'Applications'))
 //         return createFile(file,path.join(__dirname,'Applications'))
+//         // return path.join(__dirname,'Applications')
 //     }))
 //     .then(()=>{
 //         console.log("Done")
@@ -57,38 +89,10 @@ const level = [`1-Beginner`,`2-Intermediate`,`3-Advanced`]
 // .catch(err=>{
 //     console.log(err.message)
 // })
-// //passsing directoryPath and callback function
 
 
-// function createFile(filename, dir) {
-//     return new Promise((resolve, reject) => {
-//         if (fs.existsSync(path.join(dir, path.dirname(filename)))) {
-//             resolve(path.join(dir, path.dirname(filename)))
-//         } else {
-//             fs.mkdir(path.join(dir, path.dirname(filename)), (err) => {
-//                 if (!err) {
-//                     resolve(path.join(dir, path.dirname(filename)))
-//                 }
-//                 reject(err)
-//             })
-//         }
 
-//     })
-//         .then((_path => {
-//             return new Promise((resolve,reject)=>{
-//                 let filepath = path.join(_path,path.basename(filename))
-//                 // console.log(filepath)
-//                 fs.writeFile(filepath,'',(err)=>{
-//                     if(!err){
 
-//                         resolve(`${filepath} is created!`)
-//                     }
-//                     reject(err)
-//                 })
-//             })
-//         }))
-
-// }
 
 function genHTML(css, js) {
     let exampleHTML = `
@@ -96,7 +100,7 @@ function genHTML(css, js) {
 <html>
 
 <head>
-    <link href="./${css}">
+    <link href="./${css}" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -139,7 +143,7 @@ Promise.all(level.map(le=>{
         return names.map(name=>{
             let html = path.join(__dirname, 'Applications', le,name,`${name}.html`)
             return new Promise((resolve,reject)=>{
-                fs.writeFile(html,genHTML(`${name}.js`,`${name}.css`),(err)=>{
+                fs.writeFile(html,genHTML(`${name}.css`,`${name}.js`),(err)=>{
                     if(!err){
                         resolve("success")
                     }
@@ -151,4 +155,7 @@ Promise.all(level.map(le=>{
 }))
 .then(()=>{
     console.log("Done")
+})
+.catch(er=>{
+    console.log(er)
 })
