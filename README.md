@@ -13,6 +13,7 @@ It will auto generate all html/css/file for each apps, such as
 
 <img src="bigtree.png">
 
+I also using bootstrap for doing the layout 
 
 ----------------------------------------------------------------------------------
 ## Projects
