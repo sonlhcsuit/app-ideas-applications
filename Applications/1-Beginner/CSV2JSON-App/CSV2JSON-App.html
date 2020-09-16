@@ -17,8 +17,32 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="d-flex justify-content-center align-items-center border" style="height: 100vh;width: 100vw;">
+    <div class="h-75 w-75 border d-flex">
+        <div id="inp-box" class="h-100 d-flex flex-column" style="width: 45%;">
+            <div id="inp-area" class=" h-75 w-100" >
+                <textarea id="inp" class="w-100 h-100"></textarea>
+            </div>
+            <div class="w-100 h-25 d-flex">
+                <button class="w-75 bnt btn-primary m-md-auto" id="btn-upload">Upload </button>
+            </div>
+        </div>
+        <div id="inp-box" class="h-25 my-md-auto d-flex flex-column justify-content-center" style="width: 10%;">
+            <button class="bnt btn-primary m-md-auto" id="toCSV">to CSV -></button>
+            <button class="bnt btn-primary m-md-auto" id="toJSON">to JSON -> </button>
 
+        </div>
+        <div id="inp-box" class="h-100 d-flex flex-column" style="width: 45%;">
+            <div id="inp-area" class="  h-75 w-100" >
+                <textarea class="w-100 h-100 bg bg-secondary text-light" id="out" disabled></textarea>
+            </div>
+            <div class="w-100 h-25 d-flex">
+                <button class="w-25 bnt btn-primary m-md-auto" id="btn-download">Download </button>
+                <button class="w-25 bnt btn-primary m-md-auto" id="btn-clear">Clear </button>
+                <button class="w-25 bnt btn-primary m-md-auto" id="btn-copy" >Copy </button>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./CSV2JSON-App.js">
 
