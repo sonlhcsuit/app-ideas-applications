@@ -22,79 +22,51 @@
     },
     {
         "_id": 4,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "Magical-like Brusher",
+        "supplier": "nigan-puler",
+        "quantity": 100,
+        "unit_cost": "$10.53"
     },
     {
         "_id": 5,
-        "product_name": "Dextromathorphan HBr",
+        "product_name": "Small Fan",
         "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "quantity": 91,
+        "unit_cost": "$15.35"
     },
     {
         "_id": 6,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "Hand Gel",
+        "supplier": "VLSR Inc",
+        "quantity": 1,
+        "unit_cost": "$3.53"
     },
     {
         "_id": 7,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "Iphone 11 Max Pro",
+        "supplier": "Apple",
+        "quantity": 36,
+        "unit_cost": "$999.91"
     },
     {
         "_id":8,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "CCNA Certification",
+        "supplier": "Cisco",
+        "quantity": 30,
+        "unit_cost": "$149.99"
     },
     {
         "_id": 9,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "Introduction to Algorithms",
+        "supplier": "Spinger",
+        "quantity": 150,
+        "unit_cost": "$30.23"
     },
     {
         "_id": 10,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
-    },
-    {
-        "_id": 11,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
-    },
-    {
-        "_id": 12,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
-    },
-    {
-        "_id": 13,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
-    },
-    {
-        "_id": 14,
-        "product_name": "Dextromathorphan HBr",
-        "supplier": "Schmitt-Weissnat",
-        "quantity": 211,
-        "unit_cost": "$20.53"
+        "product_name": "Na`vi T-shirt",
+        "supplier": "Na`vi Team",
+        "quantity": 99,
+        "unit_cost": "$99.99"
     }
 ]
