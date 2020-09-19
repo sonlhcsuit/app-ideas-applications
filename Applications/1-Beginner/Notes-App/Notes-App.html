@@ -21,25 +21,24 @@
 </head>
 
 <body style="width: 100vw; height: 100vh;" class="border">
-    <div style="height: 10%;" class="w-100 border text-center">
+    <div style="height: 15%;" class="w-100 border text-center">
         <h1 class="text-success">Mardown App</h1>
         <i id="add" class="fa fa-plus fa-4x text-success"></i>
 
     </div>
-    <div id="notes" style="height: 90%;overflow: scroll!important;" class="w-100 border d-flex align-items-center flex-column">
-        <div class="border my-md-3" style="border-radius: 15px;width: 50%;height: 25%;flex-wrap: wrap;">
-            <div style="height: 20%;background-color: aqua;border-radius: 15px 15px 0px 0px;"
-                class="d-flex align-items-center bg">
-                <p class="m-md-0 ml-md-2 text-light" style="font-style: italic;">time</p>
-                <span class="ml-auto fa fa-check fa-2x text-success"></span>
-                <span class="mx-md-2 fa fa-trash fa-2x text-danger"></span>
-            </div>
-            <div style="height: 90%" class="w-100 p-md-2" contenteditable>
-                asd
+    <div style="height: 85%;overflow: scroll!important; width: 100%;"
+        class="border d-flex align-items-center flex-column">
+        <div id="notes" style="display: block; width: 100%;height: 100%;">
+            <div id="pa1"class="border my-md-3 mx-md-auto" style="border-radius: 15px;width: 50%;height: 25%;">
+                <div style="height: 20%;background-color: aqua;border-radius: 15px 15px 0px 0px;"
+                    class="d-flex align-items-center bg">
+                    <p class="m-md-0 ml-md-2 text-dark" style="font-style: italic;">time</p>
+                    <span class="ml-auto fa fa-check fa-2x text-success"></span>
+                    <span class="mx-md-2 fa fa-trash fa-2x text-danger"></span>
+                </div>
+                <textarea id="1" style="height: 80%;overflow-y: scroll;" class="w-100 p-md-2"></textarea>
             </div>
         </div>
-       
-
     </div>
 </body>
 <script src="./Notes-App.js">
