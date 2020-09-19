@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +16,29 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="d-flex  align-items-center flex-column" style="height: 100vh;width: 100vw;">
+    <form class="w-25 h-25">
+        <div class="form-group">
+            <label for="mail">X</label>
+            <input type="text" class="form-control" id="x" aria-describedby="emailHelp" placeholder="For X">
 
+        </div>
+        <div class="form-group">
+            <label for="username">Y</label>
+            <input type="text" class="form-control" id="y" placeholder="For Y">
+        </div>
+        <button type="button" id="add" class="btn btn-primary">Add</button>
+        <button type="button" id="cal" class="btn btn-primary ml-auto">Calculate</button>
+        <button type="button" id="clr" class="btn btn-primary ml-auto">clear</button>
+
+
+
+    </form>
+    <div class="w-25 h-75" style="overflow:auto;">
+        <table id="tab" style="width:100%">
+        
+        </table>
+    </div>
 </body>
 <script src="./Pearson-Regression-App.js">
 
