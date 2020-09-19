@@ -17,8 +17,39 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class style="width: 100vw;height: 100vh;">
+    <div class="w-25 mx-md-auto d-flex align-items-center justify-content-between" style="height: 10%;">
+        <input type="button" id="start" class="btn btn-primary" value="Start Monitor">
+        <!-- <input type="button" id="load" class="btn btn-primary" value="Load DB"> -->
+        <input type="button" id="stop" class="btn btn-primary" value="Stop Monitor" disabled>
+        <input type="button" id="reset" class="btn btn-primary" value="Reset Monitor">
+    </div>
+    <div class="w-100 d-flex" style="height: 90%;">
+        <div id="log" class="w-25 border border-dark bg bg-secondary text-success p-md-2"
+            style="overflow-y: scroll;border-width: 5px!important;font-weight: 500;">
 
+        </div>
+        <div id="result" class="w-75 border border-success bg-dark bg text-light p-md-2 overflow-auto"
+            style="border-width: 5px!important;">
+            <table id="notif" style="width:100%">
+                <!-- <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
 </body>
 <script src="./IOT-Mailbox-App.js">
 

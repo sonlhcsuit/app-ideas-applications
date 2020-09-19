@@ -47,11 +47,11 @@ required to complete them.
 | [Flip Image](./Projects/1-Beginner/Flip-Image-App.md)                             | Change the orientation of images across two axes           | 1-Beginner |Done     |
 | [GitHub Status](./Projects/1-Beginner/GitHub-Status-App.md)                       | Display Current GitHub Status                              | 1-Beginner |not fun  |
 | [Hello](./Projects/1-Beginner/Hello-App.md)                                       | User native language greeting                              | 1-Beginner |Done     |
-| [IOT Mailbox Simulator](./Projects/1-Beginner/IOT-Mailbox-App.md)                 | Use callbacks to check your snail mail                     | 1-Beginner |---------|
-| [JS Input Validation](./Projects/1-Beginner/Javascript-Validation-With-Regex.md)  | Script to validate inputs entered by a user using RegEx    | 1-Beginner |---------|
-| [JSON2CSV App](./Projects/1-Beginner/JSON2CSV-App.md)                             | JSON to CSV converter                                      | 1-Beginner |---------|
-| [Key Value](./Projects/1-Beginner/Key-Value-App.md)                               | Keyboard Event Values                                      | 1-Beginner |---------|
-| [Lorem Ipsum Generator](./Projects/1-Beginner/Lorem-Ipsum-Generator.md)           | Generate lorem ipsum placeholder text                      | 1-Beginner |---------|
+| [IOT Mailbox Simulator](./Projects/1-Beginner/IOT-Mailbox-App.md)                 | Use callbacks to check your snail mail                     | 1-Beginner |Done     |
+| [JS Input Validation](./Projects/1-Beginner/Javascript-Validation-With-Regex.md)  | Script to validate inputs entered by a user using RegEx    | 1-Beginner |Done     |
+| [JSON2CSV App](./Projects/1-Beginner/JSON2CSV-App.md)                             | JSON to CSV converter                                      | 1-Beginner |Done     |
+| [Key Value](./Projects/1-Beginner/Key-Value-App.md)                               | Keyboard Event Values                                      | 1-Beginner |Done     |
+| [Lorem Ipsum Generator](./Projects/1-Beginner/Lorem-Ipsum-Generator.md)           | Generate lorem ipsum placeholder text                      | 1-Beginner |not fun  |
 | [Notes App](./Projects/1-Beginner/Notes-App.md)                                   | Create an online note pad                                  | 1-Beginner |---------|
 | [Pearson Regression](./Projects/1-Beginner/Pearson-Regression-App.md)             | Calculate the correlation coefficient for two sets of data | 1-Beginner |---------|
 | [Pomodoro Clock](./Projects/1-Beginner/Pomodoro-Clock.md)                         | Task timer to aid personal productivity                    | 1-Beginner |---------|
