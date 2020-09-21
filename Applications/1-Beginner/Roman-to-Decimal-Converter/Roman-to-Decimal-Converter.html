@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +16,27 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
-
+<body class="mh-100" style="height: 100vh;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="h-50 col-md-12 border d-flex align-items-center flex-column">
+            <h1 class="mt-md-3">Decimal to ROMAN </h1>
+            <p>Enter your decimal number and magic will happens</p>
+            <form class="my-auto w-50">
+                <div class="form-group w-100">
+                    <input id="decimal" class="form-control w-100 h-100" placeholder="Enter your decimal number">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Your number must be integer and lower than 3000.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <h1 id="num" class="text-center">where magic happens</h1>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="./Roman-to-Decimal-Converter.js">
 
