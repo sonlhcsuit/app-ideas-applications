@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +16,29 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="width:100vw;height:100vh" class="container">
+    <div class="d-flex align-items-center justify-content-center" style="height:10%;">
+        <h1>Vigenere Encryption</h1>
+    </div>
+    <div class="d-flex align-items-center justify-content-center" style="height:10%;">
+        <div class="form-group">
+            <input type="radio" name="t" value="en" id="en"checked> <label>Encryption</label>
+            <input type="radio" name="t" value="de"> <label>Decryption</label>
+        </div>
+    </div>
+    <div class="d-flex border" style="height:20%;">
+        <textarea class="w-100 h-100 p-md-2" id="inp" placeholder="Enter your data"></textarea>
+    </div>
+    <div class="d-flex justify-content-center align-items-center" style="height:20%;">
+        <div class="w-50" style="height: fit-content;">
+            <input type="text" class="w-100" id="key"placeholder="Enter your keyword">
 
+        </div>
+    </div>
+    <p class="text-center">Here is your encrypted/decrypted message</p>
+    <div class="d-flex border" style="height:20%;">
+        <textarea id="out"class="w-100 h-100 p-md-2" disabled></textarea>
+    </div>
 </body>
 <script src="./Vigenere-Cipher.js">
 
