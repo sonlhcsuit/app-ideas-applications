@@ -1,0 +1,1 @@
+document.getElementById("num").innerHTML = (Math.random()*1000).toFixed(0).toString()

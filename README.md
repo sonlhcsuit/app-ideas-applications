@@ -55,17 +55,17 @@ required to complete them.
 | [Notes App](./Projects/1-Beginner/Notes-App.md)                                   | Create an online note pad                                  | 1-Beginner |Done     |
 | [Pearson Regression](./Projects/1-Beginner/Pearson-Regression-App.md)             | Calculate the correlation coefficient for two sets of data | 1-Beginner |Done     |
 | [Pomodoro Clock](./Projects/1-Beginner/Pomodoro-Clock.md)                         | Task timer to aid personal productivity                    | 1-Beginner |not fun  |
-| [Product Landing Page](./Projects/1-Beginner/Product-Landing-Page.md)             | Showcase product details for possible buyers               | 1-Beginner |---------|
-| [Quiz App](./Projects/1-Beginner/Quiz-App.md)                                     | Test your knowledge by answering questions                 | 1-Beginner |---------|
-| [Recipe App](./Projects/1-Beginner/Recipe-App.md)                                 | Recipe                                                     | 1-Beginner |---------|
-| [Random Meal Generator](./Projects/1-Beginner/Random-Meal-Generator.md)           | Generate random meals                                      | 1-Beginner |---------|
-| [Random Number Generator](./Projects/1-Beginner/Random-Number-Generator.md)       | Generate random number between range.                      | 1-Beginner |---------|
+| [Product Landing Page](./Projects/1-Beginner/Product-Landing-Page.md)             | Showcase product details for possible buyers               | 1-Beginner |not fun  |
+| [Quiz App](./Projects/1-Beginner/Quiz-App.md)                                     | Test your knowledge by answering questions                 | 1-Beginner |Done     |
+| [Recipe App](./Projects/1-Beginner/Recipe-App.md)                                 | Recipe                                                     | 1-Beginner |Done     |
+| [Random Meal Generator](./Projects/1-Beginner/Random-Meal-Generator.md)           | Generate random meals                                      | 1-Beginner |Done     |
+| [Random Number Generator](./Projects/1-Beginner/Random-Number-Generator.md)       | Generate random number between range.                      | 1-Beginner |Done     |
 | [Roman to Decimal Converter](./Projects/1-Beginner/Roman-to-Decimal-Converter.md) | Convert Roman to Decimal numbers                           | 1-Beginner |---------|
-| [Slider Design](./Projects/1-Beginner/Slider-Design.md)                           | Display images using a slider control                      | 1-Beginner |---------|
+| [Slider Design](./Projects/1-Beginner/Slider-Design.md)                           | Display images using a slider control                      | 1-Beginner |not fun  |
 | [Stopwatch App](./Projects/1-Beginner/Stopwatch-App.md)                           | Count time spent on activities                             | 1-Beginner |---------|
-| [TrueOrFalse](./Projects/1-Beginner/True-or-False-App.md)                         | Identify the result of a conditional comparison            | 1-Beginner |---------|
+| [TrueOrFalse](./Projects/1-Beginner/True-or-False-App.md)                         | Identify the result of a conditional comparison            | 1-Beginner |not fun  |
 | [Vigenere Cipher](./Projects/1-Beginner/Vigenere-Cipher.md)                       | Encrypt text using the Vigenere Cypher                     | 1-Beginner |---------|
-| [Wind Chill](./Projects/1-Beginner/Windchill-App.md)                              | Calculate the windchill factor from an actual temperature  | 1-Beginner |---------|
+| [Wind Chill](./Projects/1-Beginner/Windchill-App.md)                              | Calculate the windchill factor from an actual temperature  | 1-Beginner |not fun  |
 | [Word Frequency](./Projects/1-Beginner/Word-Frequency-App.md)                     | Calculate word frequency in a block of text                | 1-Beginner |---------|
 | [Weather App](./Projects/1-Beginner/Weather-App.md)                               | Get the temperature, weather condition of a city.          | 1-Beginner |---------|
 
