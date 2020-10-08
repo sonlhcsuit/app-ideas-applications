@@ -22,6 +22,7 @@ function getmeal(url) {
     return fetch(url)
         .then(res => res.json())
         .then(data => {
+            console.log(data)
             console.log(data.meals[0])
             let materials = []
             for (let i = 1; i <= 20; i++) {
@@ -38,11 +39,11 @@ function getmeal(url) {
 }
 function oneMeal({ name, random }) {
     let url = ''
-    
     if (name) {
         url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`
         console.log(url)
         return getmeal(url)
+            .then()
 
     }
 
@@ -50,7 +51,7 @@ function oneMeal({ name, random }) {
         url = `https://www.themealdb.com/api/json/v1/1/random.php`
         console.log(url)
         return getmeal(url)
-        
+
     }
 
 }
@@ -65,4 +66,4 @@ function init() {
         }
     })
 }
-init()
+window.onload = init

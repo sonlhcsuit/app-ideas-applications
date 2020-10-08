@@ -17,8 +17,40 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="mh-100" style="height: 100vh;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="h-50 col-md-12 border d-flex align-items-center flex-column">
+            <h1 class="mt-md-3">BitsMask</h1>
+            <p>Enter GMT offset</p>
+            <form class="my-auto w-50">
+                <div class="form-group w-100 h-50">
 
+                    <div class="input-group w-100 h-100">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">&#x23F0</div>
+                        </div>
+                        <input id="innum" style="font-size: 30px;" class="form-control h-100" placeholder="Enter GMT offset">
+
+                    </div>
+                    
+
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Your input must be number.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input class="" type="checkbox">
+                    <label>Do you mean NOT gmt offset ?</label>
+                </div>
+                <div class="form-group" id="output">
+                    <p class="text-center">where magic happens</p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="./Bit-Masks-App.js">
 
