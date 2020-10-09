@@ -17,8 +17,33 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="mh-100" style="height: 100vh;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="h-50 col-md-12 border d-flex align-items-center flex-column justify-content-between">
+            <h1 class="mt-md-3">Calculator-CLI</h1>
+            <p>An simulator for calculator CLI</p>
+            <form class="w-50">
+                <div class="form-group w-100 my-auto">
 
+                    <div class="input-group w-100 h-100">
+                        <input id="cmd" style="font-size: 30px;" class="form-control h-100" placeholder="eg. cal add 9 8">
+
+                    </div>
+                    
+
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Your input must be number.
+                    </div>
+                </div>
+            </form>
+            <div class="w-100 h-50 border border-danger bg bg-dark text-light p-md-3 overflow-auto" id="log">
+            </div>
+        </div>
+        
+    </div>
 </body>
 <script src="./Calculator-CLI.js">
 
