@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +16,28 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="height:100vh;width:100vw">
+    <nav class="navbar navbar-light bg-light w-100 border">
+        <a class="navbar-brand w-25" href="#">
+            <img src="https://www.globalgiving.org/img/logos/gg_horizontal_color_600.png" class="w-50"
+                class="d-inline-block align-top" alt="">
+        </a>
+        <div class="input-group form-inline w-50">
+            <input type="text" class="form-control" id="stext" placeholder="Search for...">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="button" id="search"> Search</button>
+            </span>
+        </div>
+    </nav>
+    <div class="w-100" style="height: 90%;overflow:auto;">
+        <div class="container-fluid" id="ct">
+            <div class="row p-md-4 " id="rows">
+              
+            </div>
 
+
+        </div>
+    </div>
 </body>
 <script src="./Charity-Finder-App.js">
 
