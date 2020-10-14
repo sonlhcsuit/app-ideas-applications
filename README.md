@@ -1,6 +1,7 @@
 This repository is about doing 100 days of code challenges from repository: florinpop17/app-ideas
 
 If you start with original repo, you can create a folder structure like that
+
 <img src="tree.png">
 
 Then copy my prepare.js and
@@ -16,6 +17,7 @@ It will auto generate all html/css/file for each apps, such as
 I also using bootstrap for doing the layout 
 
 ----------------------------------------------------------------------------------
+I wanna do it with Vanilla JS(plain JS), so some project I can't complete (due to it must be implement by node). Rather than that, I wanna focus on JS skill so maybe I ignored some "Art"-project.
 ## Projects
 
 Projects are divided into three tiers based on the knowledge and experience
@@ -95,9 +97,9 @@ required to complete them.
 | [Name Generation using RNNs](./Projects/2-Intermediate/Name-Generator.md)         | Generate names using names dataset                 | 2-Intermediate |not topic|
 | [Password Generator](./Projects/2-Intermediate/Password-Generator.md)             | Generate random passwords                          | 2-Intermediate |to easy  |
 | [Podcast Directory](./Projects/2-Intermediate/Podcast-Directory-App.md)           | Directory of favorite podcasts                     | 2-Intermediate |not fun  |
-<!--
 | [QR Code Badge Generator](./Projects/2-Intermediate/QRCode-Badge-App.md)          | Encode badge info in a QRcode                      | 2-Intermediate |---------|
 | [Regular Expression Helper](./Projects/2-Intermediate/RegExp-Helper-App.md)       | Test Regular Expressions                           | 2-Intermediate |---------|
+<!--
 | [Sales Reciepts App](./Projects/2-Intermediate/Sales-DB-App.md)                   | Record Sales Receipts in a DB                      | 2-Intermediate |---------|
 | [Simple Online Store](./Projects/2-Intermediate/Simple-Online-Store.md)           | Simple Online Store                                | 2-Intermediate |---------|
 | [Sports Bracket Generator](./Projects/2-Intermediate/Sports-Bracket-Generator.md) | Generate a sports bracket diagram                  | 2-Intermediate |---------|
