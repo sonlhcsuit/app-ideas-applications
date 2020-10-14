@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +16,19 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="width: 100vw; height: 100vh;" class="d-flex flex-column justify-content-center align-items-center" >
+    <div style="height: 10%;width: 70vw;" class="d-flex ">
+        <input type="text" id="rg" class="form-control m-md-auto" placeholder="Enter some regex">
+        <input type="text" id="flag" class="form-control m-md-auto" style="width: 10%;" placeholder="flags" value="g">
+
+    </div>
+    <div style="height: 90%; " class="overflow-auto ">
+        <div style="position: absolute; z-index: -1;height: 90vh;width: 70vw;color: transparent;" class="p-md-2"
+            id="back">
+        </div>
+        <textarea id="front" class="p-md-2" style="background-color: transparent;width: 70vw;height: 90vh;"></textarea>
+    </div>
+
 
 </body>
 <script src="./RegExp-Helper-App.js">

@@ -1,0 +1,8 @@
+span{
+    background-color: aqua;
+    color: transparent;
+    display: inline!important;
+}
+p{
+    display: inline;
+}
