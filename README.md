@@ -97,18 +97,16 @@ required to complete them.
 | [Name Generation using RNNs](./Projects/2-Intermediate/Name-Generator.md)         | Generate names using names dataset                 | 2-Intermediate |not topic|
 | [Password Generator](./Projects/2-Intermediate/Password-Generator.md)             | Generate random passwords                          | 2-Intermediate |to easy  |
 | [Podcast Directory](./Projects/2-Intermediate/Podcast-Directory-App.md)           | Directory of favorite podcasts                     | 2-Intermediate |not fun  |
-| [QR Code Badge Generator](./Projects/2-Intermediate/QRCode-Badge-App.md)          | Encode badge info in a QRcode                      | 2-Intermediate |---------|
-| [Regular Expression Helper](./Projects/2-Intermediate/RegExp-Helper-App.md)       | Test Regular Expressions                           | 2-Intermediate |---------|
-<!--
-| [Sales Reciepts App](./Projects/2-Intermediate/Sales-DB-App.md)                   | Record Sales Receipts in a DB                      | 2-Intermediate |---------|
-| [Simple Online Store](./Projects/2-Intermediate/Simple-Online-Store.md)           | Simple Online Store                                | 2-Intermediate |---------|
-| [Sports Bracket Generator](./Projects/2-Intermediate/Sports-Bracket-Generator.md) | Generate a sports bracket diagram                  | 2-Intermediate |---------|
-| [String Art](./Projects/2-Intermediate/String-Art.md)                             | An animation of moving, colored strings            | 2-Intermediate |---------|
+| [QR Code Badge Generator](./Projects/2-Intermediate/QRCode-Badge-App.md)          | Encode badge info in a QRcode                      | 2-Intermediate |done     |
+| [Regular Expression Helper](./Projects/2-Intermediate/RegExp-Helper-App.md)       | Test Regular Expressions                           | 2-Intermediate |done     |
+| [Sales Reciepts App](./Projects/2-Intermediate/Sales-DB-App.md)                   | Record Sales Receipts in a DB                      | 2-Intermediate |not fun  |
+| [Simple Online Store](./Projects/2-Intermediate/Simple-Online-Store.md)           | Simple Online Store                                | 2-Intermediate |done     |
+| [Sports Bracket Generator](./Projects/2-Intermediate/Sports-Bracket-Generator.md) | Generate a sports bracket diagram                  | 2-Intermediate |done     |
+| [String Art](./Projects/2-Intermediate/String-Art.md)                             | An animation of moving, colored strings            | 2-Intermediate |not fun  |
 | [This or That Game](./Projects/2-Intermediate/This-or-That-Game.md)               | This or That Game                                  | 2-Intermediate |---------|
 | [Timezone Slackbot](./Projects/2-Intermediate/Timezone-Slackbot.md)               | Display Team Timezones                             | 2-Intermediate |---------|
-| [To-Do App](./Projects/2-Intermediate/To-Do-App.md)                               | Manage personal to-do tasks                        | 2-Intermediate |---------|
+| [To-Do App](./Projects/2-Intermediate/To-Do-App.md)                               | Manage personal to-do tasks                        | 2-Intermediate |done     |
 | [Typing Practice](./Projects/2-Intermediate/Typing-Practice-App.md)               | Typing Practice                                    | 2-Intermediate |---------|
--->
 | [Voting App](./Projects/2-Intermediate/Voting-App.md)                             | Voting App                                         | 2-Intermediate |Done     |
 
 ### Tier-3: Advanced Projects
