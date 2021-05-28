@@ -20,17 +20,20 @@ function generateStaticClock() {
 function generateClockComponent({ unit, unit_plural }) {
     return `
     <div class="col-md-3 p-md-0 box">
-            <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
-                <div id="number">
-                    <h1 id="${unit_plural}">
-                        ${unit}
-                    </h1>
-                </div>
-                <div>
-                    <hr>
-                    <h6>${unit_plural}</h6>
-                </div>
+        <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <div id="number">
+            <svg xmlns="http://www.w3.org/2000/svg">
+            <path d="M ${start.x} ${start.y} A ${radius} ${radius}, 0, ${percent <= 50 ? 1 : 0} ${percent <= 50 ? 1 : 0} ${end.x} ${end.y} " fill="none" stroke-width=4 stroke="red"
+        </svg>
+                <h1 id="${unit_plural}">
+                    ${unit}
+                </h1>
             </div>
+            <div>
+                <hr>
+                <h6>${unit_plural}</h6>
+            </div>
+        </div>
     </div>
     `
 }
@@ -82,6 +85,40 @@ function init() {
         event.target.interval = setInterval(tiktok, 1000)
 
     })
-    // let destination = document.getElementById('inp').v
+    let destination = document.getElementById('inp').v
+    console.log(percentComplete(12, 24))
 }
-// init()
+init()
+
+function coordinateOnCircleFromZero(centreX, centreY, radius, angleInDegree) {
+    // plus 180 because 0 rad are horizontal line, at bottom, 90  
+
+    let offset = 180
+    let angleInRadian = (angleInDegree + offset) * Math.PI / 180
+
+
+
+    return {
+        x: centreX + radius * Math.sin(angleInRadian),
+        y: centreY + radius * Math.cos(angleInRadian)
+    }
+
+
+
+}
+function svg(radius,percent) {
+    let start = coordinateOnCircleFromZero(100, 100, radius, 0)
+    let end = coordinateOnCircleFromZero(100, 100, radius, -1 * percent * 360)
+
+    return `
+    <svg xmlns="http://www.w3.org/2000/svg">
+    <path d="M ${start.x} ${start.y} A ${radius} ${radius}, 0, ${percent <= 50 ? 1 : 0} ${percent <= 50 ? 1 : 0} ${end.x} ${end.y} " fill="none" stroke-width=4 stroke="red"
+</svg>
+    `
+}
+function percentComplete(current_value, max_value) {
+
+    document.getElementById("crazy").insertAdjacentHTML("afterbegin",
+        svg(90,0.90))
+    return current_value / max_value
+}
