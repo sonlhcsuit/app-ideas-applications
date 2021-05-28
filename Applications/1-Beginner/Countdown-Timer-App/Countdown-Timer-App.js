@@ -19,7 +19,7 @@ function generateStaticClock() {
 }
 function generateClockComponent({ unit, unit_plural }) {
     return `
-    <div class="col-md-3 p-md-0">
+    <div class="col-md-3 p-md-0 box">
             <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                 <div id="number">
                     <h1 id="${unit_plural}">
@@ -84,4 +84,4 @@ function init() {
     })
     // let destination = document.getElementById('inp').v
 }
-init()
+// init()
